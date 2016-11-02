@@ -13,6 +13,7 @@
 		7D9E4DDD1DC9CA820097B114 /* PokeDex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E4DDB1DC9CA820097B114 /* PokeDex.xcdatamodeld */; };
 		7D9E4DDF1DC9CA820097B114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E4DDE1DC9CA820097B114 /* Assets.xcassets */; };
 		7D9E4DE21DC9CA820097B114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E4DE01DC9CA820097B114 /* LaunchScreen.storyboard */; };
+		7D9E4DEA1DC9CC690097B114 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E4DE91DC9CC690097B114 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D9E4DDE1DC9CA820097B114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9E4DE11DC9CA820097B114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D9E4DE31DC9CA820097B114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9E4DE91DC9CC690097B114 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = ../pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7D9E4DD31DC9CA820097B114 /* PokeDex */ = {
 			isa = PBXGroup;
 			children = (
+				7D9E4DE91DC9CC690097B114 /* pokemon.csv */,
 				7D9E4DD41DC9CA820097B114 /* AppDelegate.swift */,
 				7D9E4DD61DC9CA820097B114 /* ViewController.swift */,
 				7D9E4DD81DC9CA820097B114 /* Main.storyboard */,
@@ -128,6 +131,7 @@
 			files = (
 				7D9E4DE21DC9CA820097B114 /* LaunchScreen.storyboard in Resources */,
 				7D9E4DDF1DC9CA820097B114 /* Assets.xcassets in Resources */,
+				7D9E4DEA1DC9CC690097B114 /* pokemon.csv in Resources */,
 				7D9E4DDA1DC9CA820097B114 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
