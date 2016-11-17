@@ -106,6 +106,9 @@
                             <constraint firstItem="sV4-Zg-mGW" firstAttribute="top" secondItem="fW1-T5-1zF" secondAttribute="bottom" constant="20" id="vI6-JC-ZUW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="sV4-Zg-mGW" id="YMR-fc-ke7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
