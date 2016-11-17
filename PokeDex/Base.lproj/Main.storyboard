@@ -139,6 +139,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="sV4-Zg-mGW" id="YMR-fc-ke7"/>
+                        <outlet property="serachView" destination="fW1-T5-1zF" id="jvA-h2-9Un"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
