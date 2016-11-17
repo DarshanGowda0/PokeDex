@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2BA8AA1DDD9B1500090E2A /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BA8A91DDD9B1500090E2A /* csv.swift */; };
 		7D6774DF1DDD86300036C1CC /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6774DE1DDD86300036C1CC /* Pokemon.swift */; };
 		7D6774E21DDD8EE90036C1CC /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6774E11DDD8EE90036C1CC /* PokeCell.swift */; };
 		7D9E4DD51DC9CA820097B114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E4DD41DC9CA820097B114 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D2BA8A91DDD9B1500090E2A /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		7D6774DE1DDD86300036C1CC /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		7D6774E11DDD8EE90036C1CC /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		7D9E4DD11DC9CA820097B114 /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,7 @@
 				7D9E4DE01DC9CA820097B114 /* LaunchScreen.storyboard */,
 				7D9E4DE31DC9CA820097B114 /* Info.plist */,
 				7D9E4DDB1DC9CA820097B114 /* PokeDex.xcdatamodeld */,
+				7D2BA8A91DDD9B1500090E2A /* csv.swift */,
 			);
 			path = PokeDex;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 				TargetAttributes = {
 					7D9E4DD01DC9CA820097B114 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -165,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2BA8AA1DDD9B1500090E2A /* csv.swift in Sources */,
 				7D9E4DD71DC9CA820097B114 /* ViewController.swift in Sources */,
 				7D6774DF1DDD86300036C1CC /* Pokemon.swift in Sources */,
 				7D9E4DDD1DC9CA820097B114 /* PokeDex.xcdatamodeld in Sources */,
