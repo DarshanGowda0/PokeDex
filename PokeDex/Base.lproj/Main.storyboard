@@ -48,14 +48,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="WxD-kJ-LiO">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokeCell" id="WxD-kJ-LiO" customClass="PokeCell" customModule="PokeDex" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="ci9-wG-GHY">
+                                                <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="ci9-wG-GHY">
                                                     <rect key="frame" x="0.0" y="0.0" width="105" height="80"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
@@ -80,6 +80,10 @@
                                             <constraint firstAttribute="trailing" secondItem="ci9-wG-GHY" secondAttribute="trailing" id="kBH-Y4-aSh"/>
                                             <constraint firstItem="ci9-wG-GHY" firstAttribute="leading" secondItem="WxD-kJ-LiO" secondAttribute="leading" id="u6b-Au-SaS"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="pokeImage" destination="ci9-wG-GHY" id="Dh1-PO-DI8"/>
+                                            <outlet property="pokeName" destination="U3i-g5-3yF" id="rQA-8M-hxe"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
